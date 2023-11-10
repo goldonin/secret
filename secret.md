@@ -1,4 +1,4 @@
-_Q2_
+***Q2***
 Certainly! Below are the steps to pull the Ubuntu image from Docker Hub, launch a web application in a container on port 8080, and make it reachable globally:
 
 1. **Pull Ubuntu Image from Docker Hub:**
@@ -48,7 +48,7 @@ Now, your web application should be accessible globally via `http://your-host-ip
 
 Keep in mind that this example uses a basic `echo` command as the web application. Replace the `CMD` in the Dockerfile with the command to start your specific web application.
 
-_Q3_
+***Q3***
 
 Certainly! Here are the steps to deploy an Nginx application on your Kubernetes cluster and make it available across the cluster on port 80:
 
@@ -111,7 +111,7 @@ Certainly! Here are the steps to deploy an Nginx application on your Kubernetes 
 
 That's it! Now, your Nginx application should be deployed on your Kubernetes cluster and accessible across the cluster on port 80. Adjust the service type based on your requirements (ClusterIP, NodePort, or LoadBalancer).
 
-_Q5_
+***Q5***
 
 Certainly! Below are the steps to deploy a web application in a Kubernetes pod, create a replica set, and scale the replica set when the load increases:
 
@@ -172,7 +172,7 @@ Certainly! Below are the steps to deploy a web application in a Kubernetes pod, 
 
 By following these steps, you've deployed a web application in a Kubernetes pod, created a replica set using a Deployment, and demonstrated how to scale the number of replicas in response to increased load. Adjust the replica count as needed based on your application's requirements and resource availability.
 
-_Q7_
+***Q7***
 
 Certainly! Below is an example Ansible playbook that installs the `httpd` package, starts and enables the `httpd` service, and copies an `fstab` file to the `/tmp` folder on the remote server.
 
@@ -217,7 +217,7 @@ Make sure to replace `your_inventory_file` with the path to your Ansible invento
 
 This playbook uses Ansible tasks to perform the specified actions on the target servers. Adjust the playbook according to your environment and requirements.
 
-_Q8_
+***Q8***
 
 Certainly! Below is an example of how you can achieve the steps you mentioned using Docker, Amazon ECR (Elastic Container Registry), and Amazon ECS (Elastic Container Service). This example assumes you have the AWS CLI configured with the necessary credentials.
 
@@ -335,7 +335,7 @@ Replace:
 
 Now, your Java web app should be deployed on ECS using the Docker image stored in ECR. Adjust the names and configurations based on your specific requirements.
 
-_Q9_
+***Q9***
 
 Certainly! Below is an example Terraform configuration to create an EC2 instance in the `us-east-1` (North Virginia) region, with a security group named "web access" allowing inbound traffic on ports 22 and 80.
 
